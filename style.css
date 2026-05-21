@@ -117,3 +117,98 @@ p {
 #logoutBtn:hover {
   background: darkred;
 }
+
+/* CV PAGE */
+
+.cv-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.cv-card {
+  background: white;
+  width: 800px;
+  max-width: 100%;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.profile-header img {
+  width: 140px;
+  margin-bottom: 15px;
+}
+
+.profile-header h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.profile-header p {
+  color: #666;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  color: #4facfe;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #4facfe;
+  padding-bottom: 5px;
+}
+
+.section p {
+  line-height: 1.6;
+  color: #444;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills span {
+  background: #4facfe;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.item {
+  margin-bottom: 20px;
+}
+
+.item h3 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.button-group {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.button-group button {
+  flex: 1;
+}
+
+#logoutBtn {
+  background: crimson;
+}
+
+#logoutBtn:hover {
+  background: darkred;
+}
